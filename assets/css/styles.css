@@ -234,6 +234,8 @@ p {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 12px;
+  direction: ltr;
+  padding: 0em;
 }
 .skillset .level-bar {
   height: 12px;
@@ -278,12 +280,13 @@ p {
 @media (min-width: 992px) {
   .skillset .level-title {
     display: inline-block;
-    width: 30%;
+    width: 35%;
     margin-bottom: 0;
+    padding-left: 1em;
   }
   .skillset .level-bar {
     display: inline-block;
-    width: 70%;
+    width: 65%;
     float: left;
     position: relative;
     top: 1px;
