@@ -8,8 +8,14 @@
 */
 /* styles.css */
 /* ======= Base ======= */
+
+@font-face {
+  font-family: "BYekan";
+  src: url("../fonts/BYekan+.ttf");
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'BYekan';
   color: #545E6C;
   background: #f5f5f5;
   font-size: 14px;
