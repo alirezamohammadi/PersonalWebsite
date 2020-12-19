@@ -9,21 +9,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="وبسایت شخصی علیرضا محمدی، برنامه نویس، توسعه دهنده وب، علاقمند به نرم افزار آزاد">
+    <meta name="description"
+        content="وب‌سایت شخصی علیرضا محمدی، برنامه نویس، توسعه دهنده وب، علاقه‌مند به نرم افزار آزاد و پژوهشگر داده‌کاوی">
     <meta name="author" content="Alireza Mohammadi">
-
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap-rtl.min.css">
-
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-
     <link rel="shortcut icon" href="favicon.png" type="image/png">
 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap-rtl.min.css">
+
+    <!-- FontAwesome JS-->
+    <script defer src="assets/plugins/fontawesome/js/all.min.js"></script>
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
+    <link rel="stylesheet" href="assets/css/custom-styles.css">
 </head>
 
 <body>
@@ -33,31 +32,33 @@
                 <img class="profile" style="width: 150px; border-radius: 50%;" src="assets/images/alireza_mohammadi.jpg"
                     alt="profile image" />
                 <h1 class="name">علیرضا محمدی</h1>
-                <p class="tagline text-justify">برنامه نویس، توسعه دهنده وب، طراح UI/UX، طراح دیتابیس، مهندس نرم‌افزار و
-                    علاقه‌مند به نرم‌افزار آزاد.</p>
+                <p class="tagline text-justify">
+                    مهندس نرم‌افزار، توسعه دهنده وب، پژوهشگر داده‌کاوی و
+                    علاقه‌مند به نرم‌افزار آزاد.
+                </p>
             </div>
             <!--//profile-container-->
 
-            <div class="contact-container container-block ltr">
+            <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
                     <li>
-                        <i class="fa fa-envelope"></i>
+                        <i class="fas fa-envelope"></i>
                         <a href="mailto:info@alireza-mohammadi.ir">info@alireza-mohammadi.ir</a>
                     </li>
                     <li>
-                        <i class="fa fa-phone"></i>
+                        <i class="fas fa-phone"></i>
                         <a href="tel:+989377416313">+98 937 741 6313</a>
                     </li>
                     <li>
-                        <i class="fa fa-globe"></i>
+                        <i class="fas fa-globe"></i>
                         <a href="http://alireza-mohammadi.ir" target="_blank">alireza-mohammadi.ir</a>
                     </li>
                     <li>
-                        <i class="fa fa-telegram"></i>
+                        <i class="fab fa-telegram"></i>
                         <a href="https://t.me/alireza_mhammadi" target="_blank">@alireza_mhammadi</a>
                     </li>
                     <li>
-                        <i class="fa fa-github"></i>
+                        <i class="fab fa-github"></i>
                         <a href="https://github.com/alirezamohammadi" target="_blank">@alirezamohammadi</a>
                     </li>
                 </ul>
@@ -83,14 +84,12 @@
                 <h2 class="container-block-title">مهارت‌ها</h2>
                 <ul class="list-unstyled interests-list ltr">
                     <li>Node JS & Express</li>
-                    <li>Angular 2+</li>
                     <li>RESTful API & Web Services</li>
                     <li>SQL(PSQL, SQLite)</li>
-                    <li>OOP & ORM</li>
                     <li>Python(Tornado, DM)</li>
+                    <li>Angular 2+</li>
                     <li>JavaScript(ES6)</li>
-                    <li>HTML5, CSS3, Bootstrap, jQuery</li>
-                    <li>C#.Net, WPF</li>
+                    <li>HTML5, CSS3, Bootstrap</li>
                     <li>Agile Development</li>
                     <li>Git & Team Work</li>
                     <li>English Reading</li>
@@ -200,11 +199,17 @@
                         <ul>
                             <li>پیاده‌سازی یک Classifier مبتنی بر naïve Bayes برای دسته‌بندی پست‌های فارسی تلگرام.
                                 (پروژه کارشناسی)</li>
-                            <li>TA درس برنامه نویسی پیشرفته با C++ (دکتر ایوب باقری دانشگاه کاشان نیمسال اول 94-95)</li>
-                            <li>TA درس ساختمان داده (دکتر ایوب باقری دانشگاه کاشان نیمسال اول 95-96)</li>
-                            <li>TA درس پایگاه داده (مهندس یوسفان دانشگاه کاشان نیمسال اول 95-96)</li>
-                            <li>TA درس طراحی الگوریتم (دکتر جواد سلیمی دانشگاه کاشان نیمسال دوم 95-96)</li>
-                            <li>TA درس مهندسی اینترنت (مهندس یوسفان دانشگاه کاشان نیمسال دوم 97-96)</li>
+                            <li>
+                                TA دروس کارشناسی دانشگاه کاشان:
+                                <ul>
+                                    <li>برنامه نویسی پیشرفته با C++ (دکتر ایوب باقری دانشگاه کاشان نیمسال اول
+                                        94-95)</li>
+                                    <li>ساختمان داده (دکتر ایوب باقری نیمسال اول 95-96)</li>
+                                    <li>پایگاه داده (مهندس یوسفان نیمسال اول 95-96)</li>
+                                    <li>طراحی الگوریتم (دکتر جواد سلیمی نیمسال دوم 95-96)</li>
+                                    <li>مهندسی اینترنت (مهندس یوسفان نیمسال دوم 97-96)</li>
+                                </ul>
+                            </li>
                             <li>مدرس دوره طراحی UI/UX (انجمن علمی علوم کامپیوتر دانشگاه کاشان نیمسال دوم 96-97)</li>
                             <li>تدریس خصوصی برنامه نویسی و وب و برگزاری ورکشاپ ها و کارگاه های متعدد در سطح دانشگاه</li>
                         </ul>
