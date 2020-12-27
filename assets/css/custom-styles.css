@@ -13,6 +13,30 @@ body {
   padding-left: 0px;
 }
 
+.level-title {
+  direction: ltr;
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  .level-title {
+    margin-left: 1em;
+  }
+}
+
+.level-bar {
+  direction: ltr;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.skillset .item {
+  margin-bottom: 25px;
+}
+
 /* RTL Styles */
 .sidebar-wrapper {
   left: 0;
@@ -28,11 +52,7 @@ body {
 
 .time {
   left: 0;
-  right: unset !important}
-
-@media (min-width: 992px) {
-  .skillset .level-title {
-    float: right;
-  }
+  right: unset !important
 }
+
 /* END OF RTL styles */
