@@ -37,6 +37,10 @@ body {
   margin-bottom: 25px;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 /* RTL Styles */
 .sidebar-wrapper {
   left: 0;
