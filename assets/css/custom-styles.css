@@ -41,6 +41,23 @@ body {
   text-align: justify;
 }
 
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline;
+  white-space: nowrap;
+}
+
+.list-inline > li::before {
+  content: "•";
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+}
+
+
 /* RTL Styles */
 .sidebar-wrapper {
   left: 0;
